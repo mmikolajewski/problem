@@ -1,0 +1,12 @@
+spring:
+  h2:
+    console:
+      path: /h2-console
+  datasource:
+    url: jdbc:h2:mem:test
+    username: admin
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
