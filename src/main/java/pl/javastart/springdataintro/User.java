@@ -1,7 +1,6 @@
 package pl.javastart.springdataintro;
 
 import jakarta.persistence.*;
-
 @Entity
 @Table(name = "users")
 public class User {
